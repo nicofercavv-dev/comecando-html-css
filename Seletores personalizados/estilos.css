@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    display: inline-block;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    padding: 100px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: chartreuse;
+}
+a:visited{
+    color: cornflowerblue;
+}
+a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+}
+.especial::after{
+    content: "[LINK]";
+}
+div:hover{
+    background-color: blueviolet;
+}
+.links{
+    text-align: center;
+}
+
+#surpresa > p{
+    display: none;
+}
+
+#surpresa:hover > p{
+
+    display: block;
+    background-color: blueviolet;
+}

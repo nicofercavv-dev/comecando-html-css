@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#main{
+    color: rgb(11, 103, 179);
+    text-align: center;
+    border: double black;
+    padding: 5px;
+}
